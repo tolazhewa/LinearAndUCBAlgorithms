@@ -1,0 +1,25 @@
+This repository contains three reinforcement algorithms:
+
+- UCB (Upper Confidence Bound) contained in q1.cpp
+- L(r-p) (Linear Reward-Penaty) contained in q2.cpp
+- L(r-i) (Linear Reward-Inaction) contained in q2.cpp
+
+There are parameters to adjust for all the algorithms. 
+Open q1.cpp and there is a settable configuration section for UCB.
+Open q2.cpp and there is a settable configuration section for L(r-i) and L(r-p) are bound to the same program.
+
+There is a lot of flexibility so feel free to experiment with it as you like :)
+
+To run q1 please execute the following commands:
+> make q1
+> ./q1.o
+
+To run q2 please execute the following commands:
+> make q2
+> ./q2.o
+
+Two files for each execution will be produced:
+- ".out" file (e.g q1.out): A dump file that will print out the progression of the algorithm
+- "_stats" file (e.g q1_stats): A stats file produced at the end to analyze parameters
+
+Enjoy!
